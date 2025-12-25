@@ -3,6 +3,8 @@
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Signal-AppImage-Enhanced/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Signal-AppImage-Enhanced/releases/latest)
 [![CI Build Status](https://github.com//pkgforge-dev/Signal-AppImage-Enhanced/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Signal-AppImage-Enhanced/releases/latest)
 
+Improved AppImage of Signal **independent of the host libc** which makes able to work on very very old distros as well as musl-libc distros like alpine linux.
+
 * [Latest Stable Release](https://github.com/pkgforge-dev/Signal-AppImage-Enhanced/releases/latest)
 
 ---
