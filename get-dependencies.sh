@@ -16,7 +16,9 @@ pacman -Syu --noconfirm \
   libxdamage    \
   libxext       \
   libxfixes     \
-  libxrandr
+  libxrandr     \
+  nspr          \
+  nss
 
 if [ "$ARCH" = 'x86_64' ]; then
 	sudo pacman -S --noconfirm libva-intel-driver
