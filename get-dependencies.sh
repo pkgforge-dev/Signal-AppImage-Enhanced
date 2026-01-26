@@ -50,7 +50,7 @@ wget "$DEB_LINK" -O /tmp/temp.deb
 ar x /tmp/temp.deb
 tar xvf ./data.tar.xz
 mkdir -p ./AppDir/bin
-mv -v ./opt/Signal* ./AppDir/bin
+mv -v ./opt/Signal/* ./AppDir/bin
 cp -v ./AppDir/bin/signal-desktop ./AppDir
 cp -v ./usr/share/icons/hicolor/256x256/apps/signal-desktop.png ./AppDir
 cp -v ./usr/share/icons/hicolor/256x256/apps/signal-desktop.png ./.DirIcon
