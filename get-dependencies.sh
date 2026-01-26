@@ -53,3 +53,5 @@ mkdir -p ./AppDir/bin
 mv -v ./opt/* ./AppDir/bin
 cp -v ./usr/share/icons/hicolor/256x256/apps/signal-desktop.png ./AppDir
 cp -v ./usr/share/icons/hicolor/256x256/apps/signal-desktop.png ./.DirIcon
+
+echo "$latest_ver" > ~/version
