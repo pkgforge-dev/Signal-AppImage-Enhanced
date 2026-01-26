@@ -10,7 +10,6 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export OPTIMIZE_LAUNCH=1
 
 # Deploy dependencies
-mkdir -p ./AppDir/bin
 quick-sharun ./AppDir/bin/*
 
 # Additional changes can be done in between here
